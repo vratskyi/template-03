@@ -2,9 +2,9 @@
 @import "dark-light.css"
 @import "__colors"
 @import "__header"
-@import "__components" 
+@import "__components"
 @import "__breakpoints"
-  
+
 /* FONT ---------------------------------
 @font-face
   font-family: 'Montserrat', sans-serif
@@ -12,19 +12,32 @@
   font-style: normal
   font-display: swap
   src: url("./src/fonts/Montserrat-Regular.woff") url("./src/fonts/Montserrat-Medium.woff") url("./src/fonts/Montserrat-SemiBold.woff") url("./src/fonts/Montserrat-Thin.woff") url("./src/fonts/Montserrat-Light.woff") url("./src/fonts/Montserrat-Italic.woff") url("./src/fonts/Montserrat-Bold.woff") url("./src/fonts/Montserrat-ExtraLight.woff") format("woff")
-  
+
 /* MAIN ---------------------------------
-:root 
+:root
   color-scheme: light dark
 
 html, body
   background-color: var(--background-color)
 
+.background-gradient
+  height: 100vh
+  &::before
+  background-repeat: no-repeat
+  background-attachment: fixed
+  background: linear-gradient(107deg, var(--first-flag-color) -399%, var(--background-color) 58%, var(--background-color) 100%)
+
 div
-  border-radius: 2px !important
+  border-radius: 0 !important
 /* TEXT SETTINGS ---------------------------------
 h1
-  font-size: 3.4em
+  font-size: 4em
+h2
+  font-size: 2.8em
+h3
+  font-size: 2.6em
+h4
+  font-size: 2.4em
 
 .little-p
   font-size: 0.82em
@@ -32,11 +45,13 @@ h1
 .text-center
   text-align: center
 
-.font-settings
-  line-height: 1.4em
-
 .thin
   font-weight: 300
 
-p 
-  font-size: 1em
+p
+  font-size: 1.1em
+  line-height: 1.6em !important
+
+.big-p
+  font-size: 1.4em
+  line-height: 1.5em

@@ -1,6 +1,6 @@
 window.SnipcartSettings = {
     publicApiKey:
-      "YOUR API KEY",
+      "NmRmMjU4ZjktMjA3Mi00MDk2LTgyYzUtOGQwOGJlOTRhYWRmNjM3ODQ3ODYxMzMzNzAxMTU2",
     loadStrategy: "on-user-interaction",
     version: "3.4.0",
     timeoutDuration: 1000

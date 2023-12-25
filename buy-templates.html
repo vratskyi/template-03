@@ -28,7 +28,7 @@
       href="./src/media/icons/favicon-16x16.png"
     />
     <title>Buy templates</title>
-    <meta name="color-scheme" content="dark light" />
+    <meta name="color-scheme" content="dark dark" />
     <meta name="author" content="Aleksey Vratsky" />
     <meta name="copyright" content="Aleksey Vratsky" />
     <link
@@ -40,12 +40,12 @@
       content="front-end,developer,development,website,buy website,create online shop"
     />
   </head>
-  <body class="page light">
+  <body class="page dark">
     <!-- NavBar -->
-    <nav class="navbar navbar-dark">
+    <nav class="navbar navbar-dark div-bg">
       <div class="container-fluid">
         <div class="justify-content-start space-little-left">
-          <a class="navbar-brand" href="./">Aleksey Vratsky</a>
+          <a class="navbar-brand" href="/">Aleksey Vratsky</a>
         </div>
         <ul
           data-da=".offcanvas-body, 991.98, first"
@@ -53,18 +53,18 @@
         >
           <div class="basis evenly d-flex offcanvas-m">
             <li class="nav-item">
-              <a class="nav-link" href="./services"><h5>Services</h5></a>
+              <a class="nav-link" href="/services"><h5>Services</h5></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./buy-templates"
+              <a class="nav-link" href="/buy-templates"
                 ><h5>Buy templates</h5></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./documentation"><h5>Docs</h5></a>
+              <a class="nav-link" href="/documentation"><h5>Docs</h5></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./donations"><h5>Donations</h5></a>
+              <a class="nav-link" href="/donations"><h5>Donations</h5></a>
             </li>
           </div>
 
@@ -118,7 +118,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="offcanvas offcanvas-end blur"
+          class="offcanvas offcanvas-end blur div-bg"
           tabindex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
@@ -141,7 +141,7 @@
       </div>
     </nav>
     <div
-      class="col-lg-6 col-md-10 col-sm-12 container-bg-d white-color div-space"
+      class="col-lg-6 col-md-10 col-sm-12 container-bg-d white-color div-space div-bg"
       style="width: 100%"
     >
       <nav
@@ -161,10 +161,10 @@
       </nav>
     </div>
     <div
-      class="col-lg-6 col-md-10 col-sm-12 container-bg-d white-color border-top div-space"
+      class="col-lg-6 col-md-10 col-sm-12 container-bg-d white-color border-top div-space div-bg"
       style="width: 100%"
     >
-      <h1 style="padding: 0 !important">Vratsky template</h1>
+      <h1 style="padding: 0 !important">Templates</h1>
       <h4 class="gray-color">
         You can purchase <strong class="flag">this website template</strong>
       </h4>
@@ -186,11 +186,9 @@
         </button>
       </div>
       <!-- Content -->
-      <div class="row space center white-color div-space">
-        <div class="col-lg-6 col-md-6 col-sm-12 space">
-          <div
-            class="card mb-3 dark-bg active-bg gray-color text-thin space-top"
-          >
+      <div class="row space-top-little center white-color div-space">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card mb-3 container-bg-d gray-color text-thin space-top">
             <div class="row g-0">
               <div class="col-md-4 item-image">
                 <picture>
@@ -213,8 +211,8 @@
               </div>
               <div class="col-md-8">
                 <div class="card-header" style="padding: 0">
-                  <h5 class="card-title second-bg-d div-space thin">
-                    All next updates is free
+                  <h5 class="card-title dark-bg div-space thin">
+                    All next updates is free - Vratsky tmplate
                   </h5>
                 </div>
                 <div class="card-body">
@@ -223,11 +221,11 @@
                     site, which means that updates for you will come quite often
                     too. Thanks for your support :)
                   </p>
-                  <button
+                  <!-- <button
                     class="btn btn-primary btn-sm snipcart-add-item space-little"
                     data-item-id="template-000001"
                     data-item-price="4.99"
-                    data-item-file-guid="YOUR FILE GUID CODE"
+                    data-item-file-guid="0727f89a-8df3-4da2-b8c8-3f5d0941acce"
                     data-item-max-quantity="1"
                     data-item-min-quantity="1"
                     data-item-url="/buy-templates"
@@ -239,10 +237,43 @@
                     data-item-custom2-name="Change content on the website"
                     data-item-custom2-type="checkbox"
                     data-item-custom2-options="false|true[25]"
+                    data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-bs-custom-class="custom-tooltip"
+                    title="This top tooltip is themed via CSS variables."
+                  > -->
+                  <button
+                    class="btn btn-primary btn-sm space-little"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasTop"
+                    aria-controls="offcanvasTop"
                   >
                     Purchase $4.99
                     <span class="badge bg-danger">New</span>
                   </button>
+
+                  <div
+                    class="offcanvas offcanvas-top div-bg white-color"
+                    tabindex="-1"
+                    id="offcanvasTop"
+                    aria-labelledby="offcanvasTopLabel"
+                  >
+                    <div class="offcanvas-header">
+                      <div class="col">
+                        <h1 class="offcanvas-title" id="offcanvasTopLabel">
+                          Sorry but..
+                        </h1>
+                        <h2> <span class="thin">It's impossible </span><strong class="flag">right now...</strong></h2>
+                      </div>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="offcanvas-body"></div>
+                  </div>
                   <p class="card-text space-top-little">
                     <small class="text-muted"
                       >Last updated <strong>2022/05/04</strong> [ver
@@ -253,16 +284,13 @@
               </div>
             </div>
           </div>
-          <div class="dark-bg active-bg space-top div-space warning">
+          <div class="container-bg-d space-top div-space warning">
             <p class="gray-color thin">
               Please choose PayPal as payment method, others are in progress,
               sorry for the inconvenience.
             </p>
           </div>
-          <div
-            class="row text-center row-cols-4 dark-bg div-space"
-            style="margin-top: 2.5rem; margin-bottom: 1rem"
-          >
+          <div class="row container-bg-d text-center div-space-more space">
             <div class="col">
               <img
                 src="./src/media/icons/bootstrap.svg"

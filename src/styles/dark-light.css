@@ -1,37 +1,9 @@
 body {
-  /* TEMPLATE LIGHT THEME */
-  --gray-color: #2b2b2b;
-  --white-color: #232323;
-  --red-color: #ff5b54;
-  --main-bg-color: #d4d4d4;
-  --main-bg-color-darker: #ecebec;
-  --main-bg-color-d: #ecebec;
-  --first-flag-color: #005bbc;
-  --second-flag-color: #ffd600;
-  --primary-color: #0d6efd;
-  --active-main-bg-color-darker: #f8f5f5;
-  --nav-active: #a0a0a0;
-  --background-color: #e0e0e0;
-  --nav-bar-bg: #e0e0e0ef;
-  --svg-colors: invert(632%) sepia(100%) saturate(506%) hue-rotate(180deg)
-    brightness(38%) contrast(36%);
-  --container-bg: #bbbbbbea;
-  --container-bg-d: #ecebec;
-  --shadows: 0px 0px 5px 1px rgba(179, 179, 179, 0.28);
-  --filter: grayscale(0);
-  --transform: scale(1.1);
-  --service-image-1: url("../media/images/one-page.jpg");
-  --service-image-2: url("../media/images/blog.jpg");
-  --service-image-3: url("../media/images/shop.jpg");
-  --templates-image-1: url("../media/images/vertical-product.jpg");
-}
-
-.dark {
   /* TEMPLATE DARK THEME */
   --gray-color: #9b9b9b;
   --white-color: #c4c4c4;
   --red-color: #bd3a34;
-  --main-bg-color: #212226;
+  --main-bg-color: #333438;
   --main-bg-color-darker: #18191c;
   --main-bg-color-d: #1e2023;
   --first-flag-color: #005bbc;
@@ -43,8 +15,8 @@ body {
   --nav-bar-bg: #0c0d0ee3;
   --svg-colors: invert(69%) sepia(2%) saturate(23%) hue-rotate(9deg)
     brightness(88%) contrast(94%);
-  --container-bg: #131416be;
-  --container-bg-d: #131416be;
+  --container-bg: #101f36;
+  --container-bg-d: #111316;
   --filter: grayscale(100%);
   --transform: scale(1);
   --shadows: none;
@@ -226,4 +198,34 @@ body {
   --shadow-buttonDanger-hover: 0px 10px 4px -8px hsla(0, 0%, 0%, 0.25);
   --shadow-buttonDanger-active: none;
   --shadow-buttonDanger-focus: 0px 0px 6px 2px hsla(6, 55%, 60%);
+
+
+}
+
+.light {
+  /* TEMPLATE DARK THEME */
+  --gray-color: #2b2b2b;
+  --white-color: #232323;
+  --red-color: #ff5b54;
+  --main-bg-color: #bdb6b6;
+  --main-bg-color-darker: #ecebec;
+  --main-bg-color-d: #ecebec;
+  --first-flag-color: #005bbc;
+  --second-flag-color: #ffd600;
+  --primary-color: #008cff;
+  --active-main-bg-color-darker: #f8f5f5;
+  --nav-active: #a0a0a0;
+  --background-color: #e0e0e0;
+  --nav-bar-bg: #e0e0e0ef;
+  --svg-colors: invert(632%) sepia(100%) saturate(506%) hue-rotate(180deg)
+    brightness(38%) contrast(36%);
+  --container-bg: #bbbbbbea;
+  --container-bg-d: #ecebec;
+  --shadows: 0px 0px 5px 1px rgba(179, 179, 179, 0.28);
+  --filter: grayscale(0);
+  --transform: scale(1.1);
+  --service-image-1: url("../media/images/one-page.jpg");
+  --service-image-2: url("../media/images/blog.jpg");
+  --service-image-3: url("../media/images/shop.jpg");
+  --templates-image-1: url("../media/images/vertical-product.jpg"); 
 }

@@ -1,10 +1,7 @@
 @import "__colors"
 
 /* CUSTOM STYLE ---------------------------------
-.flag
-  background: -webkit-linear-gradient(30deg, var(--second-flag-color) 0%, var(--first-flag-color) 90%)
-  -webkit-background-clip: text
-  -webkit-text-fill-color: transparent
+
 
 .service-image-1
   content: var(--service-image-1)
@@ -96,9 +93,14 @@
 .div-space
   padding: 1.2rem
 
+.div-space-more
+  padding: 1.8rem
+
 .border-top
   border-color: var(--main-bg-color) !important
 
+.transparent
+  background-color: transparent !important
 
 .item-image
   flex: 0 0 33.333%
@@ -115,17 +117,16 @@
   border: .15rem solid var(--white-color)
 
 .custom-image
-  -webkit-filter: var(--filter)
-  filter: var(--filter)
-  -webkit-transition: 0.3s ease-in-out
   transition: 0.3s ease-in-out
-  -webkit-transform: var(--transform)
-  transform: var(--transform)
-  &:hover
-    -webkit-filter: grayscale(0)
-    filter: grayscale(0)
-    -webkit-transform: var(--transform)
-    transform: var(--transform)
+  // -webkit-filter: var(--filter)
+  // filter: var(--filter)
+  // -webkit-transform: var(--transform)
+  // transform: var(--transform)
+  // &:hover
+  //   -webkit-filter: grayscale(0)
+  //   filter: grayscale(0)
+  //   -webkit-transform: var(--transform)
+  //   transform: var(--transform)
 
 a
   text-decoration: none  
@@ -178,14 +179,14 @@ button
   sticky: true
 
 .shop-button
-  z-index: 5
+  z-index: 1
   position: fixed
   display: flex
   flex-direction: row-reverse
   right: 0
   bottom: 0
   margin: 2rem
-  background-color: var(--main-bg-color)
+  background-color: var(--container-bg-d)
   border-radius: 5rem
   padding: .9rem
   width: 3rem
@@ -203,14 +204,14 @@ button
   bottom: 0
 
 .person-button
-  z-index: 5
+  z-index: 1
   position: fixed
   display: flex
   flex-direction: row-reverse
   right: 0
   bottom: 0
   margin: 0 6rem 2rem 0
-  background-color: var(--main-bg-color)
+  background-color: var(--container-bg-d)
   border-radius: 5rem
   padding: .9rem
   width: 3rem
@@ -222,4 +223,5 @@ button
     background-color: var(--main-bg-color-darker)
     margin: 2.05rem 6.05rem 2.05rem 0
 
-  
+div.col-lg-8.col-md-6.col-sm-12.between-service.fill-available
+  padding: 0

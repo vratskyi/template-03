@@ -25,9 +25,9 @@ function setCheckedState() {
 function toggleTheme() {
   // Toggle theme based on state of checkbox
   if (toggle.checked) {
-    page.classList.replace("light", "dark");
-  } else {
     page.classList.replace("dark", "light");
+  } else {
+    page.classList.replace("light", "dark");
   }
 
   // set the value of the "checked" key in localStorage

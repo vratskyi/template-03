@@ -13,7 +13,7 @@ a.nav-link:hover
 
 .navbar-toggler
   border: 0.1rem solid var(--main-bg-color) !important
-
+ 
 .navbar-dark .navbar-toggler-icon
   filter: var(--svg-colors)
 
@@ -21,7 +21,7 @@ a.nav-link:hover
   border-bottom: 0.1rem solid var(--main-bg-color)
   padding: 1rem 0 1rem 0
   z-index: 5 !important
-  background-color: var(--nav-bar-bg)
+  background-color: transparent !important
 
 .border-left-right
   border-left: 0.1rem solid var(--main-bg-color)
@@ -31,9 +31,15 @@ a.nav-link:hover
 .navbar-brand
   font-size: 1.2em
 
-.blur
-  backdrop-filter: blur(5px)
-  background-color: var(--container-bg)
+.div-bg
+  background-repeat: no-repeat
+  background-attachment: fixed
+  background: linear-gradient(107deg, var(--primary-color) -399%, var(--background-color) 40%, var(--background-color) 100%)
+    
+#offcanvasNavbar
+  background-repeat: no-repeat
+  background-attachment: fixed
+  background: linear-gradient(107deg, var(--primary-color) -399%, var(--background-color) 40%, var(--background-color) 100%)
 
 button.visibility-mobile-menu
   display: none !important
@@ -57,4 +63,5 @@ button.visibility-mobile-menu
 .close-btn-canvas
   filter: var(--svg-colors)
 
-/* SWITCH THEME --------------------------
+/* ANIMATION --------------------------
+

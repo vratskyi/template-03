@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./src/styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="./src/styles/style.min.css" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./src/media/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/media/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./src/media/icons/favicon-16x16.png"
+    />
+    <title>Documentation</title>
+    <meta name="color-scheme" content="dark light" />
+    <meta name="author" content="Aleksey Vratsky" />
+    <meta name="copyright" content="Aleksey Vratsky" />
+    <link
+      name="description"
+      content="Junior front-end developer from Ukraine."
+    />
+    <link
+      name="keywords"
+      content="front-end,developer,development,website,buy website,create online shop"
+    />
+  </head>
+  <body class="page light">
+    <!-- NavBar -->
+    <nav class="navbar navbar-dark">
+      <div class="container-fluid">
+        <div class="justify-content-start space-little-left">
+          <a class="navbar-brand" href="/">Aleksey Vratsky</a>
+        </div>
+        <ul
+          data-da=".offcanvas-body, 991.98, first"
+          class="navbar-nav desktop-nav row-menu visibility-desktop-menu"
+        >
+          <div class="basis evenly d-flex offcanvas-m">
+            <li class="nav-item">
+              <a class="nav-link" href="/services"><h5>Services</h5></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/buy-templates"
+                ><h5>Buy templates</h5></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/documentation"><h5>Docs</h5></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/donations"><h5>Donations</h5></a>
+            </li>
+          </div>
+
+          <div class="social border-left-right">
+            <li class="nav-item d-flex" style="align-items: center">
+              <a class="nav-link" href="https://t.me/vratsky0" target="_blank">
+                <img
+                  src="./src/media/icons/telegram.svg"
+                  class="social-telegram space-little-right"
+                  width="30"
+                  height="30"
+                />
+              </a>
+
+              <a
+                class="nav-link"
+                href="https://www.instagram.com/vratsk1y/"
+                target="_blank"
+              >
+                <img
+                  src="./src/media/icons/instagram.svg"
+                  class="social-instagram"
+                  width="32"
+                  height="32"
+                />
+              </a>
+            </li>
+          </div>
+          <div
+            data-da=".theme-switch, 991.98, first"
+            class="form-check form-switch toggle space-little-left"
+          >
+            <input
+              class="form-check-input toggle-input"
+              type="checkbox"
+              role="switch"
+              id="flexSwitchCheckDefault"
+            />
+            <label class="form-check-label" for="flexSwitchCheckDefault">
+            </label>
+          </div>
+        </ul>
+
+        <button
+          class="navbar-toggler visibility-mobile-menu"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end blur"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title gray-color" id="offcanvasNavbarLabel">
+              Menu
+            </h5>
+            <div class="theme-switch"></div>
+
+            <button
+              type="button"
+              class="btn-close text-reset gray-color close-btn-canvas"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body relative"></div>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="col-lg-6 col-md-10 col-sm-12 container-bg-d white-color div-space"
+      style="width: 100%"
+    >
+      <nav
+        style="
+          --bs-breadcrumb-divider: url(
+            &#34;data:image/svg + xml,
+            %3Csvgxmlns='http://www.w3.org/2000/svg'width='8'height='8'%3E%3Cpathd='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z'fill='currentColor'/%3E%3C/svg%3E&#34;
+          );
+          margin: 0;
+        "
+        aria-label="breadcrumb"
+      >
+        <ol class="breadcrumb nullMargin">
+          <li class="breadcrumb-item"><a href="/">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">
+            Documentation
+          </li>
+        </ol>
+      </nav>
+    </div>
+    <div
+      class="col-lg-6 col-md-10 col-sm-12 container-bg-d div-space white-color border-top"
+      style="width: 100%"
+    >
+      <h1 style="padding: 0 !important">
+        <strong>Documentation</strong>
+      </h1>
+      <h4 class="gray-color">
+        Here you can find full information
+        <strong class="flag">about this template</strong>
+      </h4>
+    </div>
+    <div class="container-lg">
+      <!-- Content -->
+      <div class="row white-color div-space">
+        <div class="row center space container-bg-d white-color div-space">
+          <div class="col-lg-8 col-md-8 col-sm-12 space">
+            <h2 class="space-top"><strong>Requirements</strong></h2>
+            <h4 class="gray-color space-line">
+              1.
+              <strong class="flag">Section</strong>
+            </h4>
+            <p class="space-little">
+              To fully work with this template, make sure you have the following
+              components installed:
+            </p>
+            <li>
+              <a href="https://nodejs.org/en/" target="_blank">
+                Node.js
+                <img src="./src/media/icons/link.svg" width="14" height="14" />
+              </a>
+            </li>
+            <li>
+              <a href="https://purgecss.com/" target="_blank">
+                PurgeCss
+                <img src="./src/media/icons/link.svg" width="14" height="14" />
+              </a>
+            </li>
+            <li>
+              <a href="https://prepros.io/" target="_blank">
+                Prepros
+                <img
+                  src="./src/media/icons/link.svg"
+                  width="14"
+                  height="14"
+                  loading="lazy"
+                />
+              </a>
+              (or another SASS compiler)
+            </li>
+            <h2 class="space-top"><strong>How it works</strong></h2>
+            <h4 class="gray-color space-line">
+              2.
+              <strong class="flag">Section</strong>
+            </h4>
+            <p class="space-little">
+              This template includes
+              <a href="https://getbootstrap.com/" target="_blank">
+                Bootstrap
+                <img src="./src/media/icons/link.svg" width="14" height="14" />
+              </a>
+              ,
+              <a href="https://sass-lang.com/" target="_blank">
+                SASS
+                <img src="./src/media/icons/link.svg" width="14" height="14" />
+              </a>
+              , and JavaScript.
+            </p>
+            <h2 class="space-top"><strong>Styles</strong></h2>
+            <h4 class="gray-color space-line">
+              3.
+              <strong class="flag">Section</strong>
+            </h4>
+            <p class="space-little">
+              This template includes few files of styles.
+            </p>
+            <h5>For example</h5>
+            <p>
+              I need to change all text color of site to white, all i need to do
+              just going to this file: <code>dark-light.css</code>
+            </p>
+            <figure class="figure">
+              <picture>
+                <source
+                  srcset="./src/media/images/code.avif"
+                  type="image/avif"
+                  loading="lazy"
+                />
+                <source
+                  srcset="./src/media/images/code.webp"
+                  type="image/webp"
+                  loading="lazy"
+                />
+                <img
+                  src="./src/media/images/code.png"
+                  class="figure-img img-fluid rounded"
+                  width="636"
+                  height="620"
+                  loading="lazy"
+                />
+              </picture>
+
+              <figcaption class="figure-caption">
+                <code>dark-light.css</code>
+              </figcaption>
+            </figure>
+            <p>
+              As you can see, a different variable for each color, just change
+              here
+              <code>--gray-color: #2b2b2b;</code> and changes will applies on
+              all template. Same with all components in this template.
+            </p>
+            <h5>Defaults veriables</h5>
+            <table class="table dark-bg gray-color custom-table">
+              <tbody>
+                <tr class="active-bg">
+                  <th scope="row"><code>--gray-color</code></th>
+                  <td>Title and text color</td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row"><code>--white-color</code></th>
+                  <td>Title and text color</td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row"><code>--red-color</code></th>
+                  <td colspan="2">Danger color</td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row"><code>--main-bg-color</code></th>
+                  <td colspan="2">Container background color</td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row"><code>--main-bg-color-darker</code></th>
+                  <td colspan="2">Second container background color</td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row"><code>--first-flag-color</code></th>
+                  <td colspan="2">First flag color</td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row"><code>--second-flag-color</code></th>
+                  <td colspan="2">Second flag color</td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row"><code>--social-bg</code></th>
+                  <td colspan="2">Social link color</td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row"><code>--primary-color</code></th>
+                  <td colspan="2">Accent color</td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row">
+                    <code>--active-main-bg-color-darker</code>
+                  </th>
+                  <td colspan="2">Active background when hover</td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row"><code>--nav-active</code></th>
+                  <td colspan="2">Nav bar hover color</td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row"><code>--background-color</code></th>
+                  <td colspan="2">Main background color</td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row"><code>--nav-bar-bg</code></th>
+                  <td colspan="2">Nav bar background color</td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row"><code>--svg-colors</code></th>
+                  <td colspan="2">SVG colors</td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row"><code>--container-bg</code></th>
+                  <td colspan="2">Another container background color</td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row"><code>--container-bg-d</code></th>
+                  <td colspan="2">Another container background color</td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row"><code>--shadows</code></th>
+                  <td colspan="2">Shadow effect for containers</td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row"><code>--filter</code></th>
+                  <td colspan="2">Filter for images</td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row"><code>--transform</code></th>
+                  <td colspan="2">Transform effect</td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row"><code>--service-image-1</code></th>
+                  <td colspan="2">
+                    URL for images (depends what the style theme user choose)
+                  </td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row"><code>--service-image-2</code></th>
+                  <td colspan="2">
+                    URL for images (depends what the style theme user choose)
+                  </td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row"><code>--service-image-3</code></th>
+                  <td colspan="2">
+                    URL for images (depends what the style theme user choose)
+                  </td>
+                </tr>
+                <tr class="active-bg">
+                  <th scope="row"><code>--templates-image-1</code></th>
+                  <td colspan="2">
+                    URL for images (depends what the style theme user choose)
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <h2 class="space-top"><strong>Optimization</strong></h2>
+            <h4 class="gray-color space-line">
+              4.
+              <strong class="flag">Section</strong>
+            </h4>
+            <p class="space-top-little">
+              To optimize the site I used PurgeCss, it automatically scans the
+              css file and removes unused styles, thereby reducing the file
+              size.
+            </p>
+            <p class="space-top-little">
+              This is done for the file bootstrap.min.css, so new Bootstrap
+              components you add to the template will not have Bootstrap styles,
+              you can write your own, but I recommend making a couple of steps
+              to include Bootstrap styles, and also to optimize the site.
+            </p>
+            <ol class="list-group list-group-numbered space-top-little">
+              <li class="list-group-item dark-bg active-bg gray-color">
+                Make sure
+                <a href="https://nodejs.org/en/" target="_blank">
+                  Node.js
+                  <img
+                    src="./src/media/icons/link.svg"
+                    width="14"
+                    height="14"
+                  />
+                </a>
+                installed
+              </li>
+              <li class="list-group-item dark-bg active-bg gray-color">
+                And also you need to download
+                <a href="https://getbootstrap.com/" target="_blank">
+                  Bootstrap
+                  <img
+                    src="./src/media/icons/link.svg"
+                    width="14"
+                    height="14"
+                  />
+                </a>
+              </li>
+              <li class="list-group-item dark-bg active-bg gray-color">
+                Put <code>bootstrap.min.css</code> wich was downloaded to your
+                project directory and create folder with "result" name
+              </li>
+              <li class="list-group-item dark-bg active-bg gray-color">
+                Then you need open terminal, i use
+                <a href="https://conemu.github.io/" target="_blank"
+                  >ConEmu for windows
+                  <img
+                    src="./src/media/icons/link.svg"
+                    width="14"
+                    height="14"
+                  />
+                </a>
+              </li>
+              <li class="list-group-item dark-bg active-bg gray-color">
+                Go to your project directory in terminal
+              </li>
+              <li class="list-group-item dark-bg active-bg gray-color">
+                And run this command:
+              </li>
+              <li class="list-group-item dark-bg active-bg gray-color">
+                <code
+                  >purgecss --css bootstrap.min.css --content * --output
+                  result</code
+                >
+              </li>
+              <li class="list-group-item dark-bg active-bg gray-color">
+                Then you will get in result folder
+                <code>bootstrap.min.css</code> file wich include only then
+                styles and contents you use
+              </li>
+            </ol>
+            <h2 class="space-top"><strong>Shop</strong></h2>
+            <h4 class="gray-color space-line">
+              5.
+              <strong class="flag">Section</strong>
+            </h4>
+            <p class="space-top-little">
+              This template connected to
+              <a href="https://snipcart.com/" target="_blank"
+                >Snipcart
+                <img src="./src/media/icons/link.svg" width="14" height="14" />
+              </a>
+              eCommerce platform it means if you don't want integrate another
+              platform, you need to create account there and active your
+              API-KEYS in this template, also you need to connect payment
+              gateways to receive transactions, it's simple just few steps and
+              you ready to get pay from your products.
+            </p>
+            <p>
+              <a href="https://docs.snipcart.com/v3/" target="_blank"
+                >Here
+                <img src="./src/media/icons/link.svg" width="14" height="14" />
+              </a>
+              you can find full information about SnipCart, API-KEYS and how you
+              can sell digital goods.
+            </p>
+            <h5 class="space-top-little">
+              How connect API-KEYS to this template
+            </h5>
+            <ol class="list-group list-group-numbered space-little">
+              <li class="list-group-item dark-bg active-bg gray-color">
+                Go to
+                <a href="https://nodejs.org/en/" target="_blank">
+                  Snipcart
+                  <img
+                    src="./src/media/icons/link.svg"
+                    width="14"
+                    height="14"
+                  />
+                </a>
+                and create your account
+              </li>
+              <li class="list-group-item dark-bg active-bg gray-color">
+                Add to account
+                <a href="https://docs.snipcart.com/v3/" target="_blank"
+                  >BILLING & PAYMENTS
+                  <img
+                    src="./src/media/icons/link.svg"
+                    width="14"
+                    height="14"
+                  />
+                </a>
+                information, then set up
+                <a href="https://docs.snipcart.com/v3/" target="_blank"
+                  >PAYMENT GATEWAYS
+                  <img
+                    src="./src/media/icons/link.svg"
+                    width="14"
+                    height="14"
+                  />
+                </a>
+              </li>
+              <li class="list-group-item dark-bg active-bg gray-color">
+                Switch to live mode, and copy your
+                <a
+                  href="https://app.snipcart.com/dashboard/account/credentials"
+                  target="_blank"
+                  >LIVE API KEY
+                  <img
+                    src="./src/media/icons/link.svg"
+                    width="14"
+                    height="14"
+                  />
+                </a>
+              </li>
+              <li class="list-group-item dark-bg active-bg gray-color">
+                Then paste API KEY to <code>purchase-template</code> file, or
+                another were you configure Snipcart
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- scripts -->
+    <script src="./src/js/theme-switch-dist.js"></script>
+    <script src="./src/js/dynamic-adapt-dist.js"></script>
+    <script src="./src/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

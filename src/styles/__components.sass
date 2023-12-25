@@ -1,0 +1,225 @@
+@import "__colors"
+
+/* CUSTOM STYLE ---------------------------------
+.flag
+  background: -webkit-linear-gradient(30deg, var(--second-flag-color) 0%, var(--first-flag-color) 90%)
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+
+.service-image-1
+  content: var(--service-image-1)
+
+.service-image-2
+  content: var(--service-image-2)
+
+.service-image-3
+  content: var(--service-image-3)
+
+.templates-image-1
+  content: var(--templates-image-1)
+
+.center
+  display: flex
+  justify-content: center
+
+.relative
+  position: relative
+
+.row-menu
+  flex-direction: row
+
+.nullMargin
+  margin: 0 !important
+
+.between-service
+  display: flex
+  justify-content: space-between
+
+.evenly
+  display: flex
+  justify-content: space-evenly 
+
+.evenly-service
+  display: flex
+  justify-content: space-evenly
+
+.fill-available
+  width: -webkit-fill-available
+
+.wrap
+  display: flex
+  flex-wrap: wrap
+
+.arround
+  display: flex
+  justify-content: space-around
+
+.global-space
+  margin-top: 9rem !important
+.global-space-index
+  margin-top: 10rem !important
+.space-line
+  margin: 0.5rem 0 0 0
+  padding: 0 0 1rem 0
+  border-bottom: 0.1rem solid var(--main-bg-color)
+
+.space
+  margin: 2rem 0 2rem 0
+
+.big-space-bottom
+  margin-bottom: 4rem
+
+.space-little
+  margin: 1rem 0 1rem 0
+
+.space-little-left
+  margin: 0 0 0 1rem
+
+.space-little-right
+  margin: 0 1rem 0 0
+
+.space-right
+  margin: 0 2rem 0 0
+
+.space-top
+  margin: 2rem 0 0 0
+
+.space-top-little
+  margin: 1rem 0 0 0
+
+.space-bottom
+  margin: 0 0 2rem 0
+
+.space-bottom-little
+  margin: 0 0 1rem 0
+
+.div-space
+  padding: 1.2rem
+
+.border-top
+  border-color: var(--main-bg-color) !important
+
+
+.item-image
+  flex: 0 0 33.333%
+  position: relative
+  min-height: 300px
+  & img
+    object-fit: fill
+    position: absolute
+    top: 0
+    left: 0
+
+.item-service-img img
+  border-radius: 50%
+  border: .15rem solid var(--white-color)
+
+.custom-image
+  -webkit-filter: var(--filter)
+  filter: var(--filter)
+  -webkit-transition: 0.3s ease-in-out
+  transition: 0.3s ease-in-out
+  -webkit-transform: var(--transform)
+  transform: var(--transform)
+  &:hover
+    -webkit-filter: grayscale(0)
+    filter: grayscale(0)
+    -webkit-transform: var(--transform)
+    transform: var(--transform)
+
+a
+  text-decoration: none  
+
+.custom-table
+  --bs-table-striped-bg:var(--main-bg-color-darker)
+  --bs-table-bg: transparent
+  border-color: var(--gray-color)
+
+.blockquote
+  font-size: 1em
+
+.card
+  border-radius: 10px
+  border: none
+
+.card-title
+  margin-bottom: 0 !important
+
+.warning
+  &::before
+  border-left: 0.2rem solid var(--red-color)
+
+/* CUSTOM ACCORDION ---------------------------------
+.accordion-button
+  background-color: var(--main-bg-color-darker)
+  color: var(--gray-color)
+  border: none !important
+
+#accordion-bg
+  background-color: var(--main-bg-color-darker)
+  color: var(--gray-color)
+
+.accordion
+  border: none !important
+
+.accordion button
+  border: none !important
+/* SHOP & SIGN IN BUTTONS ---------------------------------
+input
+  color: var(--gray-color)
+
+button
+  border: none
+
+.shop-wrap
+  position: absolute
+  right: 0
+  bottom: 0
+  sticky: true
+
+.shop-button
+  z-index: 5
+  position: fixed
+  display: flex
+  flex-direction: row-reverse
+  right: 0
+  bottom: 0
+  margin: 2rem
+  background-color: var(--main-bg-color)
+  border-radius: 5rem
+  padding: .9rem
+  width: 3rem
+  height: 3rem
+  transition: 0.3s ease-in-out
+  color: var(--primary-color)
+  &:hover
+    cursor: pointer
+    background-color: var(--main-bg-color-darker)
+    margin: 2.05rem
+    
+.person-wrap
+  position: absolute
+  right: 0
+  bottom: 0
+
+.person-button
+  z-index: 5
+  position: fixed
+  display: flex
+  flex-direction: row-reverse
+  right: 0
+  bottom: 0
+  margin: 0 6rem 2rem 0
+  background-color: var(--main-bg-color)
+  border-radius: 5rem
+  padding: .9rem
+  width: 3rem
+  height: 3rem
+  transition: 0.3s ease-in-out
+  color: var(--primary-color)
+  &:hover
+    cursor: pointer
+    background-color: var(--main-bg-color-darker)
+    margin: 2.05rem 6.05rem 2.05rem 0
+
+  

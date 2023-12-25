@@ -1,0 +1,98 @@
+<nav class="navbar navbar-dark">
+  <div class="container-fluid">
+    <div class="justify-content-start">
+      <a class="navbar-brand" href="/">Aleksey Vratsky</a>
+    </div>
+    <ul
+      data-da=".offcanvas-body, 991.98, first"
+      class="navbar-nav desktop-nav row-menu visibility-desktop-menu"
+    >
+      <div class="basis evenly d-flex offcanvas-m">
+        <li class="nav-item">
+          <a class="nav-link" href="/services"><h5>Services</h5></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/buy-templates"><h5>Buy templates</h5></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/documentation"><h5>Docs</h5></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/donations"><h5>Donations</h5></a>
+        </li>
+      </div>
+
+      <div class="social border-left-right">
+        <li class="nav-item d-flex" style="align-items: center">
+          <a class="nav-link" href="https://t.me/vratsky0" target="_blank">
+            <img
+              src="./src/media/icons/telegram.svg"
+              class="social-telegram space-little-right"
+              width="30"
+              height="30"
+            />
+          </a>
+
+          <a
+            class="nav-link"
+            href="https://www.instagram.com/vratsk1y/"
+            target="_blank"
+          >
+            <img
+              src="./src/media/icons/instagram.svg"
+              class="social-instagram"
+              width="32"
+              height="32"
+            />
+          </a>
+        </li>
+      </div>
+      <div data-da=".theme-switch, 991.98, first" class="form-check form-switch toggle space-little-left">
+        <input
+          class="form-check-input toggle-input"
+          type="checkbox"
+          role="switch"
+          id="flexSwitchCheckChecked"
+          checked
+        />
+        <label
+          class="form-check-label"
+          for="flexSwitchCheckChecked"
+        ></label>
+      </div>
+    </ul>
+
+    <button
+      class="navbar-toggler visibility-mobile-menu"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="offcanvas offcanvas-end blur"
+      tabindex="-1"
+      id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title gray-color" id="offcanvasNavbarLabel">
+          Menu
+        </h5>
+        <div class="theme-switch">
+
+        </div>
+
+        <button
+          type="button"
+          class="btn-close text-reset gray-color close-btn-canvas"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body relative"></div>
+    </div>
+  </div>
+</nav>

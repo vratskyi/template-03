@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector(".page"),c=e.querySelector(".toggle-input");function t(){c.checked?e.classList.replace("light","dark"):e.classList.replace("dark","light"),localStorage.setItem("checked",c.checked)}void 0!==localStorage.checked&&(c.checked="true"===localStorage.getItem("checked"),t()),c.addEventListener("change",t)}();
+//# sourceMappingURL=theme-switch-dist.js.map

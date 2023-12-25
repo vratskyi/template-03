@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./src/styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="./src/styles/style.min.css" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./src/media/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/media/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./src/media/icons/favicon-16x16.png"
+    />
+    <title>Donations</title>
+    <meta name="color-scheme" content="dark light" />
+    <meta name="author" content="Aleksey Vratsky" />
+    <meta name="copyright" content="Aleksey Vratsky" />
+    <link
+      name="description"
+      content="Junior front-end developer from Ukraine."
+    />
+    <link
+      name="keywords"
+      content="front-end,developer,development,website,buy website,create online shop"
+    />
+  </head>
+  <body class="page light">
+    <!-- NavBar -->
+    <nav class="navbar navbar-dark">
+      <div class="container-fluid">
+        <div class="justify-content-start space-little-left">
+          <a class="navbar-brand" href="/">Aleksey Vratsky</a>
+        </div>
+        <ul
+          data-da=".offcanvas-body, 991.98, first"
+          class="navbar-nav desktop-nav row-menu visibility-desktop-menu"
+        >
+          <div class="basis evenly d-flex offcanvas-m">
+            <li class="nav-item">
+              <a class="nav-link" href="/services"><h5>Services</h5></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/buy-templates"
+                ><h5>Buy templates</h5></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/documentation"><h5>Docs</h5></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/donations"><h5>Donations</h5></a>
+            </li>
+          </div>
+
+          <div class="social border-left-right">
+            <li class="nav-item d-flex" style="align-items: center">
+              <a class="nav-link" href="https://t.me/vratsky0" target="_blank">
+                <img
+                  src="./src/media/icons/telegram.svg"
+                  class="social-telegram space-little-right"
+                  width="30"
+                  height="30"
+                />
+              </a>
+
+              <a
+                class="nav-link"
+                href="https://www.instagram.com/vratsk1y/"
+                target="_blank"
+              >
+                <img
+                  src="./src/media/icons/instagram.svg"
+                  class="social-instagram"
+                  width="32"
+                  height="32"
+                />
+              </a>
+            </li>
+          </div>
+          <div
+            data-da=".theme-switch, 991.98, first"
+            class="form-check form-switch toggle space-little-left"
+          >
+            <input
+              class="form-check-input toggle-input"
+              type="checkbox"
+              role="switch"
+              id="flexSwitchCheckDefault"
+            />
+            <label class="form-check-label" for="flexSwitchCheckDefault">
+            </label>
+          </div>
+        </ul>
+
+        <button
+          class="navbar-toggler visibility-mobile-menu"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end blur"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title gray-color" id="offcanvasNavbarLabel">
+              Menu
+            </h5>
+            <div class="theme-switch"></div>
+
+            <button
+              type="button"
+              class="btn-close text-reset gray-color close-btn-canvas"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body relative"></div>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="col-lg-6 col-md-10 col-sm-12 container-bg-d white-color div-space"
+      style="width: 100%"
+    >
+      <nav
+        style="
+          --bs-breadcrumb-divider: url(
+            &#34;data:image/svg + xml,
+            %3Csvgxmlns='http://www.w3.org/2000/svg'width='8'height='8'%3E%3Cpathd='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z'fill='currentColor'/%3E%3C/svg%3E&#34;
+          );
+          margin: 0;
+        "
+        aria-label="breadcrumb"
+      >
+        <ol class="breadcrumb nullMargin">
+          <li class="breadcrumb-item"><a href="/">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Donations</li>
+        </ol>
+      </nav>
+    </div>
+    <div
+      class="col-lg-6 col-md-10 col-sm-12 container-bg-d div-space white-color border-top"
+      style="width: 100%"
+    >
+      <h1 style="padding: 0 !important"><b>Donations</b></h1>
+      <h4 class="gray-color">
+        You can <strong class="flag"> support me bellow</strong>&#128519;
+      </h4>
+    </div>
+    <div class="container-lg">
+      <!-- Content -->
+      <div class="row space center white-color div-space">
+        <div class="col col-lg-6 col-md-6 col-sm-12 text-center space">
+          <div class="dark-bg active-bg space-top-little div-space">
+            <h6 class="gray-color thin">
+              Thanks to you I will keep learning web developming. Have a good
+              day :)
+            </h6>
+            <h4 class="white-color" style="margin-top: 1.5rem">
+              PayPal / Visa / MasterCard
+            </h4>
+            <div id="donate-button-container" style="margin-top: 1rem">
+              <div id="donate-button"></div>
+              <script
+                src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js"
+                charset="UTF-8"
+              ></script>
+              <script>
+                PayPal.Donation.Button({
+                  env: "production",
+                  hosted_button_id: "86M9AR2XME7EJ",
+                  image: {
+                    src: "https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif",
+                    alt: "Donate with PayPal button",
+                    title: "PayPal - The safer, easier way to pay online!",
+                  },
+                }).render("#donate-button");
+              </script>
+            </div>
+            <img
+              src="./src/media/images/QR-code.png"
+              style="margin-top: 2rem"
+            />
+          </div>
+          <div class="dark-bg active-bg space-top-little div-space">
+            <h4 class="white-color" style="margin-top: 1.5rem">
+              Binance Crypto Wallet
+            </h4>
+            <p class="little-p">
+              <span class="dark-bg">ETH:</span>
+              0xE02711C55074167F641d58b7Bd4DDDe524C9df9b
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- scripts -->
+    <script src="./src/js/theme-switch-dist.js"></script>
+    <script src="./src/js/dynamic-adapt-dist.js"></script>
+    <script src="./src/js/bootstrap.bundle.min.js"></script>
+    <script src="./src/js/paypal-donate.min.js"></script>
+  </body>
+</html>
